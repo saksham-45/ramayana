@@ -1,0 +1,466 @@
+# Jatayu's Death Scene - Production Shot List
+# Based on Valmiki Ramayana (Aranya Kanda, Sargas 68) + Ramanand Sagar timing reference
+# Total Duration: ~3:00 minutes (4320 frames @ 24fps)
+
+project:
+  title: "Jatayu Vadha - The Fall of the Vulture King"
+  source_text: "Valmiki Ramayana - Aranya Kanda, Sargas 68"
+  source_reference_video: "Ramanand Sagar Ramayan 1987 - Episode [TBD]"
+  target_fps: 24
+  target_resolution: "1920x1080"
+  aspect_ratio: "16:9"
+  color_palette: "extreme posterized 3-4 colors (electric blue #0000FF, crimson #DC143C, yellow #FFFF00, white #FFFFFF, black #000000)"
+  style: "datamosh glitch aesthetic, heavy compression artifacts, RGB channel separation, pixel sorting, VHS degradation, zero gradients, hard-edged color blocks, neon halos, digital noise overlay, psychedelic ornamental patterns"
+  technical_effects: "intentional glitch, chromatic aberration, posterize to 4 levels max, add pixel-sort distortion, compression artifacts, scanline overlay"
+
+# Valmiki Sanskrit Text - Key Shlokas
+valmiki_shlokas:
+  - shloka_ref: "Aranya 68.17"
+    sanskrit: "तौ दृष्ट्वा पतितं भूमौ जटायुं गतजीवितम् । हा पिता हा महाबाहो इत्येवं परिदेवितम् ॥"
+    transliteration: "tau dṛṣṭvā patitaṁ bhūmau jaṭāyuṁ gatajīvitam | hā pitā hā mahābāho ityevaṁ paridevitam ||"
+    translation: "Seeing Jatayu fallen on the ground, life nearly gone, [Rama] lamented thus: 'Alas father! Alas mighty-armed one!'"
+  
+  - shloka_ref: "Aranya 68.19"
+    sanskrit: "को भवान् कस्य वा पुत्रो गृध्रराजो महाबलः । कथं त्वमसि विज्ञेयः कथं चेमां गतां वने ॥"
+    transliteration: "ko bhavān kasya vā putro gṛdhrarājo mahābalaḥ | kathaṁ tvamasi vijñeyaḥ kathaṁ cemāṁ gatāṁ vane ||"
+    translation: "Who are you? Whose son? O mighty vulture-king! How should I know you? How did you come into this forest?"
+  
+  - shloka_ref: "Aranya 68.22"
+    sanskrit: "रावणेन हृता राज्ञा भार्या ते राघवर्षभ । तां निवारयतो राक्षसाद्विनष्टा मम जीविका ॥"
+    transliteration: "rāvaṇena hṛtā rājñā bhāryā te rāghavarṣabha | tāṁ nivārayato rākṣasādvinaṣṭā mama jīvikā ||"
+    translation: "Your wife was taken by king Ravana, O best of Raghus. While trying to stop that rakshasa, my life-force was destroyed."
+  
+  - shloka_ref: "Aranya 68.28"
+    sanskrit: "गतासुं तु महात्मानं दृष्ट्वा राघवनन्दनः । बाष्पपूर्णमुखः श्रीमान् विललापाकुलेन्द्रियः ॥"
+    transliteration: "gatāsuṁ tu mahātmānaṁ dṛṣṭvā rāghavandanaḥ | bāṣpapūrṇamukhaḥ śrīmān vilalāpākulendriyaḥ ||"
+    translation: "Seeing the great soul departed, Rama, his face filled with tears, his senses overwhelmed, lamented."
+
+# Shot Breakdown
+shots:
+  - shot_id: "SHOT_001"
+    title: "Discovery - Rama and Lakshmana Find Jatayu"
+    duration_seconds: 8
+    duration_frames: 192
+    start_frame: 0
+    end_frame: 192
+    
+    valmiki_reference: "Aranya 68.17"
+    reference_timecode: "00:00:00-00:00:08"
+    
+    description: >
+      Wide establishing shot. Rama and Lakshmana enter frame from right, walking through dark forest.
+      They stop abruptly. Camera pushes forward slowly to reveal Jatayu's massive broken form in the clearing ahead,
+      bathed in eerie blue-gold light filtering through trees. Smoke/mist rises from the battlefield.
+    
+    camera:
+      type: "Wide Shot (WS)"
+      movement: "Slow push-in (dolly forward)"
+      angle: "Eye-level, slightly low to emphasize scale"
+      focal_length: "24mm equivalent"
+    
+    composition:
+      foreground: "Rama and Lakshmana silhouettes, right third"
+      midground: "Dark twisted trees, atmospheric mist"
+      background: "Jatayu's massive wings visible in clearing, left third"
+    
+    lighting:
+      key: "Harsh blue moonlight (pure #0000FF) from above-left, no falloff"
+      fill: "Hot yellow (#FFFF00) ground-level glow, hard-edged circle of light"
+      rim: "Yellow (#FFFF00) neon halo around Jatayu's feathers, 20px glow radius"
+      atmosphere: "Black (#000000) void with datamosh pixel-sort streaks, no volumetric fog - use glitch artifacts instead"
+      post_fx: "RGB channel separation (offset red +5px, blue -5px), pixel-sort vertical distortion on edges, compression block artifacts"
+    
+    characters:
+      - name: "Rama"
+        pose: "Walking, suddenly stops, hand raised (halt gesture)"
+        expression: "Alert, then shocked recognition"
+        costume: "Pure blue (#0000FF) dhoti, yellow (#FFFF00) crown with psychedelic swirl patterns, bow in left hand"
+        face_treatment: "White (#FFFFFF) mask-like highlights on face, blue (#0000FF) shadow on left side, NO skin tones - only white/blue/black"
+        glitch_fx: "Pixel-sort on edges of silhouette, RGB split on outline"
+      - name: "Lakshmana"
+        pose: "Behind Rama, arrow nocked, scanning trees"
+        expression: "Vigilant, protective"
+        costume: "Crimson (#DC143C) dhoti, yellow (#FFFF00) headband, bow ready"
+        face_treatment: "White highlights, crimson shadow, datamosh on face edges"
+        glitch_fx: "Compression artifacts on clothing, scanlines"
+      - name: "Jatayu"
+        visibility: "Distant silhouette, wings spread on ground"
+        glow: "Yellow (#FFFF00) neon halo, pulsing, glitch flicker"
+    
+    color_notes: "Pure electric blue (#0000FF) for all shadows and sky, crimson (#DC143C) ground/blood, yellow (#FFFF00) glow on feathers, white (#FFFFFF) highlights on faces, pure black (#000000) for deepest darks. NO gradients - hard color block transitions only. Datamosh/glitch on edges."
+    
+    animation_notes: >
+      Subtle walk cycle for Rama/Lakshmana (8 frames). Camera push-in accelerates slightly at end.
+      Mist drifts slowly. Jatayu's chest barely rises and falls (breathing).
+    
+    audio:
+      dialogue: null
+      foley: "Footsteps on leaves, distant wind, labored breathing (faint)"
+      music: "Low ominous drone, building tension"
+
+  - shot_id: "SHOT_002"
+    title: "Recognition - Rama Sees Jatayu's Wounds"
+    duration_seconds: 10
+    duration_frames: 240
+    start_frame: 192
+    end_frame: 432
+    
+    valmiki_reference: "Aranya 68.17"
+    reference_timecode: "00:00:08-00:00:18"
+    
+    description: >
+      Medium shot. Rama rushes forward, kneels beside Jatayu's head. Camera circles slowly around them (270° arc).
+      Rama's hands hover over Jatayu's wounds, trembling. Lakshmana enters frame behind, standing guard.
+      Jatayu's eye opens slightly, recognizing Rama.
+    
+    camera:
+      type: "Medium Shot (MS) → Medium Close-Up (MCU)"
+      movement: "270° orbital dolly (right to left), slow descent"
+      angle: "Eye-level descending to low angle"
+      focal_length: "35mm → 50mm (slow zoom)"
+    
+    composition:
+      foreground: "Rama kneeling, three-quarter view"
+      midground: "Jatayu's head and upper body, feathers matted with blood"
+      background: "Lakshmana standing, dark trees, blue mist"
+    
+    lighting:
+      key: "Dramatic split lighting on Rama (blue left, warm right)"
+      fill: "Soft reflected light from ground"
+      rim: "Strong gold rim on Jatayu, fading glow"
+      atmosphere: "Dappled moonlight, particles in air"
+    
+    characters:
+      - name: "Rama"
+        pose: "Kneeling, one hand on Jatayu's feathers, other raised to face (grief gesture)"
+        expression: "Shock → deep sorrow, tears forming"
+        costume: "Blue dhoti now dusted with ash, crown tilted slightly"
+      - name: "Jatayu"
+        pose: "Lying on left side, head lifted weakly, eye half-open"
+        expression: "Noble suffering, faint recognition, relief at seeing Rama"
+        details: "Blood on beak, torn feathers, golden aura dimming"
+      - name: "Lakshmana"
+        pose: "Standing behind Rama, bow lowered, head bowed"
+        expression: "Restrained grief, jaw clenched"
+    
+    color_notes: "Crimson blood accents, gold feathers losing saturation, blue shadows intensify"
+    
+    animation_notes: >
+      Rama's run (12 frames) → kneel (8 frames). Camera orbits smoothly. Jatayu's eye opens slowly (30 frames).
+      Shallow breathing animation on Jatayu's chest. Feathers shift slightly in wind.
+    
+    audio:
+      dialogue:
+        - character: "Rama"
+          sanskrit: "को भवान्"
+          transliteration: "ko bhavān"
+          translation: "Who are you?"
+          timing: "0:03-0:04"
+      foley: "Rama's footsteps, cloth rustle (kneel), Jatayu's labored breath, wind through feathers"
+      music: "Sorrowful strings enter, low and sustained"
+
+  - shot_id: "SHOT_003"
+    title: "Jatayu Speaks - 'Ravana Took Sita'"
+    duration_seconds: 18
+    duration_frames: 432
+    start_frame: 432
+    end_frame: 864
+    
+    valmiki_reference: "Aranya 68.22"
+    reference_timecode: "00:00:18-00:00:36"
+    
+    description: >
+      Close-up on Jatayu's face and beak. His eye locks onto Rama (off-screen). He struggles to speak,
+      beak opening with effort. Cut to Rama's face (reaction shot) - shock and anguish. Cut back to Jatayu
+      as he delivers the devastating news. His head drops slightly at the end.
+    
+    camera:
+      type: "Extreme Close-Up (ECU) → Close-Up (CU) → ECU"
+      movement: "Static → slow push-in on Jatayu"
+      angle: "Eye-level, intimate"
+      focal_length: "85mm (shallow depth of field)"
+    
+    composition:
+      foreground: "Jatayu's face fills frame (alternating with Rama's face)"
+      midground: "Blurred Rama's hand on feathers (visible in Jatayu shots)"
+      background: "Out of focus, bokeh of blue mist and gold light"
+    
+    lighting:
+      key: "Soft directional light on Jatayu's face (warm side-light)"
+      fill: "Blue ambient from sky"
+      rim: "Fading golden glow around beak and eye"
+      atmosphere: "Shallow depth of field, glowing particles"
+    
+    characters:
+      - name: "Jatayu"
+        pose: "Head on ground, eye focused on Rama, beak opening to speak"
+        expression: "Urgent, pained, determined to deliver message before death"
+        details: "Blood trickles from beak, pupil dilating, feathers trembling"
+      - name: "Rama"
+        visibility: "Reaction shots (CU of face)"
+        expression: "Shock → horror → rage → despair (progression over 18 seconds)"
+    
+    color_notes: "Warm gold on Jatayu fades to cool blue. Crimson blood vibrant against gold feathers."
+    
+    animation_notes: >
+      Jatayu's beak opens slowly (20 frames). Eye movement subtle but focused. Head drops 3-4 frames at end.
+      Rama's reaction: eyes widen (8 frames), tear forms (15 frames), jaw clenches (10 frames).
+    
+    audio:
+      dialogue:
+        - character: "Jatayu"
+          sanskrit: "रावणेन हृता... भार्या ते... राघवर्षभ"
+          transliteration: "rāvaṇena hṛtā... bhāryā te... rāghavarṣabha"
+          translation: "Ravana... took... your wife... O best of Raghus"
+          timing: "0:02-0:10 (labored, broken speech)"
+          delivery: "Weak, gasping between words"
+        - character: "Jatayu"
+          sanskrit: "दक्षिणां दिशं... गतः"
+          transliteration: "dakṣiṇāṁ diśaṁ... gataḥ"
+          translation: "He went... southward"
+          timing: "0:12-0:15"
+      foley: "Jatayu's labored breathing, blood dripping, distant thunder"
+      music: "Music drops out, only breath and wind, then low tragic note as Rama realizes"
+
+  - shot_id: "SHOT_004"
+    title: "Rama's Anguish - 'Alas, Father!'"
+    duration_seconds: 12
+    duration_frames: 288
+    start_frame: 864
+    end_frame: 1152
+    
+    valmiki_reference: "Aranya 68.17"
+    reference_timecode: "00:00:36-00:00:48"
+    
+    description: >
+      Medium shot of Rama. He pulls Jatayu's head gently into his lap, cradling him. Rama looks skyward,
+      crying out in grief. His body shakes with sobs. Lakshmana moves closer, places hand on Rama's shoulder.
+      Camera slowly rises (crane up) to high angle, showing the three figures isolated in the dark forest clearing.
+    
+    camera:
+      type: "Medium Shot (MS) → High Angle Wide Shot (WS)"
+      movement: "Crane up, slow (12 second rise from ground to 45° angle)"
+      angle: "Eye-level → high angle looking down"
+      focal_length: "50mm → 35mm (widening as we rise)"
+    
+    composition:
+      foreground: "Rama holding Jatayu (center frame initially)"
+      midground: "Lakshmana entering from right"
+      background: "Dark forest circle around clearing, blue sky visible through canopy (at end)"
+    
+    lighting:
+      key: "Moonlight from above (grows stronger as camera rises)"
+      fill: "Warm firelight glow from below (embers)"
+      rim: "Blue-white rim on all characters from moon"
+      atmosphere: "God rays through trees, volumetric light shafts"
+    
+    characters:
+      - name: "Rama"
+        pose: "Seated, cradling Jatayu's head in lap, one hand on feathers, face turned skyward"
+        expression: "Intense grief, tears streaming, mouth open (crying out)"
+        details: "Shoulders shaking, crown askew, bow dropped beside him"
+      - name: "Jatayu"
+        pose: "Head in Rama's lap, wings draped to sides, chest still"
+        expression: "Eye closed, peaceful"
+      - name: "Lakshmana"
+        pose: "Kneeling beside Rama, hand on Rama's shoulder, head bowed"
+        expression: "Silent grief, eyes closed"
+    
+    color_notes: "Blue dominates (grief/moonlight), crimson recedes, gold fades to pale yellow"
+    
+    animation_notes: >
+      Rama lifts Jatayu's head (20 frames). Body shakes (subtle 2-frame loop). Head tilts back (15 frames).
+      Lakshmana walks in and kneels (40 frames). Camera crane smooth and slow. Feathers settle (gravity simulation).
+    
+    audio:
+      dialogue:
+        - character: "Rama"
+          sanskrit: "हा पिता! हा महाबाहो!"
+          transliteration: "hā pitā! hā mahābāho!"
+          translation: "Alas, father! Alas, mighty-armed one!"
+          timing: "0:03-0:06"
+          delivery: "Anguished cry, voice breaking"
+      foley: "Rama's sobs, cloth movement, Jatayu's body settling, wind intensifies"
+      music: "Tragic strings swell, slow mournful melody, deep percussion heartbeat"
+
+  - shot_id: "SHOT_005"
+    title: "Jatayu's Final Words - 'I Tried to Save Her'"
+    duration_seconds: 15
+    duration_frames: 360
+    start_frame: 1152
+    end_frame: 1512
+    
+    valmiki_reference: "Aranya 68.22"
+    reference_timecode: "00:00:48-00:01:03"
+    
+    description: >
+      Close-up on Jatayu's face. His eye opens one last time. He looks at Rama (off-screen).
+      He speaks haltingly, describing his battle with Ravana. Flashback flashes (3-4 frames each)
+      interspersed: Jatayu attacking Ravana's chariot, Sita screaming, Ravana's sword cutting Jatayu's wing.
+      Return to present: Jatayu's eye dims, pupil contracts.
+    
+    camera:
+      type: "Close-Up (CU) with Insert Shots"
+      movement: "Static on Jatayu, handheld shaky on flashbacks"
+      angle: "Eye-level (present), chaotic angles (flashbacks)"
+      focal_length: "50mm (present), 24mm (flashbacks)"
+    
+    composition:
+      present: "Jatayu's face (left two-thirds frame), Rama's hand visible on feathers (right)"
+      flashbacks: "Quick harsh cuts - Jatayu mid-flight, Sita's hands reaching, blade slicing"
+    
+    lighting:
+      present: "Soft warm glow on Jatayu, fading"
+      flashbacks: "High contrast, harsh daylight, bright sky, dark shadows (violent)"
+      atmosphere: "Flicker effect on flashbacks, present stays steady and dim"
+    
+    characters:
+      - name: "Jatayu"
+        pose: "Lying still, only eye and beak moving slightly"
+        expression: "Determination mixed with regret, fading strength"
+        details: "Pupil focuses then dilates, final tear forms in eye"
+      - name: "Flashback Jatayu"
+        visibility: "Brief insert shots (3-4 frames each, total 6-8 inserts)"
+        details: "Mid-battle, wings spread attacking, then falling wounded"
+    
+    color_notes: "Present: desaturating to almost monochrome. Flashbacks: oversaturated brutal colors"
+    
+    animation_notes: >
+      Eye opens slowly (25 frames). Pupil tracks Rama's face. Flashbacks are static frames with shake/blur FX.
+      Return to present with 4-frame fade. Eye closes final time (40 frames, very slow).
+    
+    audio:
+      dialogue:
+        - character: "Jatayu"
+          sanskrit: "तां निवारयतः... निहतोऽस्मि... क्षमस्व... राघव"
+          transliteration: "tāṁ nivārayataḥ... nihato'smi... kṣamasva... rāghava"
+          translation: "While trying to stop him... I was struck down... forgive me... Rama"
+          timing: "0:03-0:12"
+          delivery: "Barely audible whisper, gasping, long pauses"
+      foley: "Shallow breath, heartbeat slowing (audio representation), wind fading"
+      music: "Single sustained high string note (tension), flashback hits with percussion stabs"
+      flashback_audio: "Sita's scream (echo), wing flaps, sword slice, Jatayu's battle cry"
+
+  - shot_id: "SHOT_006"
+    title: "The Moment of Passing"
+    duration_seconds: 8
+    duration_frames: 192
+    start_frame: 1512
+    end_frame: 1704
+    
+    valmiki_reference: "Aranya 68.28"
+    reference_timecode: "00:01:03-00:01:11"
+    
+    description: >
+      Extreme close-up on Jatayu's eye. The golden glow completely fades. Pupil stops focusing.
+      Light leaves the eye. Pull back to wide shot: Rama holding Jatayu's now-still body,
+      head bowed over him. Lakshmana standing, hand over heart. Total stillness except wind.
+      Long beat of silence.
+    
+    camera:
+      type: "Extreme Close-Up (ECU) → Wide Shot (WS)"
+      movement: "Slow pull-back (dolly out), accelerates slightly"
+      angle: "Macro close → eye-level wide"
+      focal_length: "100mm macro → 35mm"
+    
+    composition:
+      opening: "Jatayu's eye fills entire frame"
+      ending: "Rama and Jatayu center, Lakshmana right, dark forest surrounds"
+    
+    lighting:
+      key: "Golden glow extinguishes (0-2 seconds), then only cold blue moonlight remains"
+      fill: "Minimal, shadowy"
+      rim: "Faint blue-white on characters"
+      atmosphere: "Darkness closing in, volumetric beams fade"
+    
+    characters:
+      - name: "Jatayu"
+        pose: "Completely still, head in Rama's lap, wings relaxed"
+        expression: "Peaceful, departed"
+        details: "No breathing, no movement, eye closed"
+      - name: "Rama"
+        pose: "Head bowed over Jatayu, both hands on body, frozen in grief"
+        expression: "Silent tears, eyes closed"
+      - name: "Lakshmana"
+        pose: "Standing, hand over heart, head tilted down"
+        expression: "Respectful silence, tears on cheek"
+    
+    color_notes: "Desaturate to near-monochrome, only faint blue. Gold completely gone."
+    
+    animation_notes: >
+      ECU: Light fades from eye (48 frames, linear fade). No other movement.
+      Pull-back: smooth, deliberate. Characters remain frozen. Only wind moves feathers slightly.
+    
+    audio:
+      dialogue: null
+      foley: "Final exhale (Jatayu), wind through trees, distant bird call (ominous)"
+      music: "All music stops at 0:02. Silence except ambient wind (0:02-0:08)."
+      mixing: "Ringing tone (tinnitus effect) fades in then out (0:01-0:05)"
+
+  - shot_id: "SHOT_007"
+    title: "Rama's Vow - Looking South"
+    duration_seconds: 10
+    duration_frames: 240
+    start_frame: 1704
+    end_frame: 1944
+    
+    valmiki_reference: "Aranya 68.29-30"
+    reference_timecode: "00:01:11-00:01:21"
+    
+    description: >
+      Medium shot of Rama's face in profile. He slowly lifts his head, eyes opening.
+      Tears glisten but his expression hardens into grim determination. He looks southward (off-screen).
+      Camera slowly pushes in on his face. Cut to: Rama's POV - dark forest extending to horizon,
+      faint storm clouds gathering in the south, lightning flickers silently.
+    
+    camera:
+      type: "Medium Close-Up (MCU) → POV Wide Shot (WS)"
+      movement: "Push-in on Rama's face (slow), static on POV"
+      angle: "Profile (Rama), eye-level looking south (POV)"
+      focal_length: "50mm → 85mm (Rama), 24mm (POV)"
+    
+    composition:
+      rama_shot: "Rama's profile (left two-thirds), negative space right (looking into)"
+      pov_shot: "Dark forest, horizon line, stormy southern sky"
+    
+    lighting:
+      rama_shot: "Blue key light on face, warm orange fill from below (fire), white rim (moon)"
+      pov_shot: "Dark, moody, lightning provides momentary illumination"
+      atmosphere: "Mist, distant storm, foreboding"
+    
+    characters:
+      - name: "Rama"
+        pose: "Kneeling, head lifting, profile to camera, jaw set, eyes narrowed"
+        expression: "Grief transforms to cold fury, determination, resolve"
+        details: "Tears dry on cheek, hand clenches (on Jatayu's feathers), shoulders straighten"
+    
+    color_notes: "Blue recedes, crimson returns in Rama's dhoti. Lightning flashes white."
+    
+    animation_notes: >
+      Head lifts slowly (30 frames). Eyes open (15 frames). Expression changes gradually.
+      POV: clouds move slowly, lightning flickers (2-frame bursts, 3 times).
+    
+    audio:
+      dialogue:
+        - character: "Rama"
+          sanskrit: "यावज्जीवं न शान्तिं मे... तव हन्ता न जीवति"
+          transliteration: "yāvajjīvaṁ na śāntiṁ me... tava hantā na jīvati"
+          translation: "As long as I live, I will have no peace... Your killer will not survive"
+          timing: "0:04-0:09"
+          delivery: "Quiet, controlled rage, each word deliberate"
+      foley: "Cloth tightening (fist clench), distant thunder, wind rising"
+      music: "Low drum heartbeat returns, building tension, war drums foreshadowing"
+
+  - shot_id: "SHOT_008"
+    title: "Lakshmana's Support"
+    duration_seconds: 6
+    duration_frames: 144
+    start_frame: 1944
+    end_frame: 2088
+    
+    valmiki_reference: "Implied from context"
+    reference_timecode: "00:01:21-00:01:27"
+    
+    description: >
+      Two-shot: Rama and Lakshmana. Lakshmana steps forward, kneels beside Rama, places his hand
+      firmly on Rama's shoulder. They exchange a look - silent understanding and shared purpose
