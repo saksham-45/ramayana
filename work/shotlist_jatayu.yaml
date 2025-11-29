@@ -5,7 +5,10 @@
 project:
   title: "Jatayu Vadha - The Fall of the Vulture King"
   source_text: "Valmiki Ramayana - Aranya Kanda, Sargas 68"
-  source_reference_video: "Ramanand Sagar Ramayan 1987 - Episode [TBD]"
+  source_reference_video: "Ramanand Sagar Ramayan 1987 - Episode [Original]"
+  source_timecode: "00:04:53 to 00:05:10"
+  total_duration_seconds: 17
+  total_frames: 408
   target_fps: 24
   target_resolution: "1920x1080"
   aspect_ratio: "16:9"
@@ -35,14 +38,16 @@ valmiki_shlokas:
     transliteration: "gatāsuṁ tu mahātmānaṁ dṛṣṭvā rāghavandanaḥ | bāṣpapūrṇamukhaḥ śrīmān vilalāpākulendriyaḥ ||"
     translation: "Seeing the great soul departed, Rama, his face filled with tears, his senses overwhelmed, lamented."
 
-# Shot Breakdown
+# Shot Breakdown (17 seconds total = 408 frames)
 shots:
   - shot_id: "SHOT_001"
     title: "Discovery - Rama and Lakshmana Find Jatayu"
-    duration_seconds: 8
-    duration_frames: 192
+    duration_seconds: 3
+    duration_frames: 72
     start_frame: 0
-    end_frame: 192
+    end_frame: 72
+    start_timecode: "00:04:53"
+    end_timecode: "00:04:56"
     
     valmiki_reference: "Aranya 68.17"
     reference_timecode: "00:00:00-00:00:08"
@@ -100,10 +105,12 @@ shots:
 
   - shot_id: "SHOT_002"
     title: "Recognition - Rama Sees Jatayu's Wounds"
-    duration_seconds: 10
-    duration_frames: 240
-    start_frame: 192
-    end_frame: 432
+    duration_seconds: 3
+    duration_frames: 72
+    start_frame: 72
+    end_frame: 144
+    start_timecode: "00:04:56"
+    end_timecode: "00:04:59"
     
     valmiki_reference: "Aranya 68.17"
     reference_timecode: "00:00:08-00:00:18"
@@ -161,10 +168,12 @@ shots:
 
   - shot_id: "SHOT_003"
     title: "Jatayu Speaks - 'Ravana Took Sita'"
-    duration_seconds: 18
-    duration_frames: 432
-    start_frame: 432
-    end_frame: 864
+    duration_seconds: 4
+    duration_frames: 96
+    start_frame: 144
+    end_frame: 240
+    start_timecode: "00:04:59"
+    end_timecode: "00:05:03"
     
     valmiki_reference: "Aranya 68.22"
     reference_timecode: "00:00:18-00:00:36"
@@ -224,10 +233,12 @@ shots:
 
   - shot_id: "SHOT_004"
     title: "Rama's Anguish - 'Alas, Father!'"
-    duration_seconds: 12
-    duration_frames: 288
-    start_frame: 864
-    end_frame: 1152
+    duration_seconds: 3
+    duration_frames: 72
+    start_frame: 240
+    end_frame: 312
+    start_timecode: "00:05:03"
+    end_timecode: "00:05:06"
     
     valmiki_reference: "Aranya 68.17"
     reference_timecode: "00:00:36-00:00:48"
@@ -285,10 +296,12 @@ shots:
 
   - shot_id: "SHOT_005"
     title: "Jatayu's Final Words - 'I Tried to Save Her'"
-    duration_seconds: 15
-    duration_frames: 360
-    start_frame: 1152
-    end_frame: 1512
+    duration_seconds: 2
+    duration_frames: 48
+    start_frame: 312
+    end_frame: 360
+    start_timecode: "00:05:06"
+    end_timecode: "00:05:08"
     
     valmiki_reference: "Aranya 68.22"
     reference_timecode: "00:00:48-00:01:03"
@@ -343,19 +356,19 @@ shots:
 
   - shot_id: "SHOT_006"
     title: "The Moment of Passing"
-    duration_seconds: 8
-    duration_frames: 192
-    start_frame: 1512
-    end_frame: 1704
+    duration_seconds: 2
+    duration_frames: 48
+    start_frame: 360
+    end_frame: 408
+    start_timecode: "00:05:08"
+    end_timecode: "00:05:10"
     
     valmiki_reference: "Aranya 68.28"
     reference_timecode: "00:01:03-00:01:11"
     
     description: >
-      Extreme close-up on Jatayu's eye. The golden glow completely fades. Pupil stops focusing.
-      Light leaves the eye. Pull back to wide shot: Rama holding Jatayu's now-still body,
-      head bowed over him. Lakshmana standing, hand over heart. Total stillness except wind.
-      Long beat of silence.
+      Extreme close-up on Jatayu's eye. The yellow glow completely fades to black. Pupil stops focusing.
+      Light leaves the eye. Quick cut to Rama's face - silent scream, then total stillness.
     
     camera:
       type: "Extreme Close-Up (ECU) → Wide Shot (WS)"
@@ -464,3 +477,5 @@ shots:
     description: >
       Two-shot: Rama and Lakshmana. Lakshmana steps forward, kneels beside Rama, places his hand
       firmly on Rama's shoulder. They exchange a look - silent understanding and shared purpose
+
+      #lets just keep pushing changes coz what elseto do 
